@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.keyframes-div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+animation-name: animation;
+animation-duration: 4s;
+animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+
+@keyframes animation {
+    0% {
+        background-color: red;
+      }
+    
+      25% {
+        background-color: blue;
+      }
+    
+      50% {
+        background-color: green;
+      }
+
+      75% {
+        background-color: yellow;
+      }
+
+      
+
+}
+
