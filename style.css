@@ -10,19 +10,21 @@
     height: 100px;
     background-color: red;
 animation-name: animation;
-animation-duration: 4s;
+animation-duration: 5s;
 animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 animation-iteration-count: infinite;
 animation-direction: alternate;
+
 
 }
 
 @keyframes animation {
     0% {
-        background-color: red;
+        left: 0;
+        /* background-color: red; */
       }
     
-      25% {
+      /* 25% {
         background-color: blue;
       }
     
@@ -32,7 +34,14 @@ animation-direction: alternate;
 
       75% {
         background-color: yellow;
+       
+      } */
+
+      100% {
+        left: 500px;
       }
+
+
 
       
 
